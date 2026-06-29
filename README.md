@@ -10,9 +10,13 @@ Desarrollar un modelo de machine learning (clasificación) que logre reducir los
 **Entrenamiento y Métricas Principales (Baseline)**
 
 --- Métricas de Regresión Logística (Baseline) ---
+
 Exactitud (Accuracy) : 0.9883
+
 Precisión (Precision): 0.9907
+
 Recall (Sensibilidad): 0.9907
+
 F1-score             : 0.9907
 
 **Matriz de Confusión e Interpretación (Baseline)**
@@ -21,7 +25,8 @@ F1-score             : 0.9907
 
  **Validación Cruzada**
  
- Cross-Validation Accuracy - Baseline: 0.9824 (+/- 0.0379)
+Cross-Validation Accuracy - Baseline: 0.9824 (+/- 0.0379)
+
 Cross-Validation Accuracy - Avanzado: 0.9623 (+/- 0.0421)
 
 <img width="536" height="547" alt="image" src="https://github.com/user-attachments/assets/09784be6-f370-4d11-aa64-025124229707" />
@@ -31,17 +36,24 @@ Cross-Validation Accuracy - Avanzado: 0.9623 (+/- 0.0421)
 Dado nuestro objetivo SMART (priorizar la sensibilidad, minimizar a toda costa los falsos negativos), ajustamos el umbral estándar de (0.5) a uno más bajo (0.2) para la Regresión Logística.
 
 --- Métricas con Umbral Optimizado ---
+
               precision    recall  f1-score   support
 
+
    malignant       0.01      0.02      0.01        64
+   
       benign       0.09      0.06      0.07       107
 
     accuracy                           0.04       171
+   
    macro avg       0.05      0.04      0.04       171
+
 weighted avg       0.06      0.04      0.05       171
 
 Matriz de Confusión Optimizada:
+
  [[  1  63]
+
  [101   6]]
 
 **Implementación de Escenario de Prueba A/B y Significancia Estadística**
