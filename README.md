@@ -68,3 +68,4 @@ Justificación Técnica:Desde una perspectiva técnica, las métricas estándar 
 Impacto en el Negocio:En el ámbito de la salud y el diagnóstico, un falso negativo (diagnosticar como benigno a un paciente que en realidad es maligno) tiene un costo humano y financiero incalculable, requiriendo tratamientos de emergencia costosos e invasivos. Al disminuir los falsos negativos por debajo del 5%, el negocio mejora su eficiencia operativa y reduce la posibilidad de litigios por negligencia. Adicionalmente, el modelo optimizado sirve como herramienta de apoyo para el personal médico, reduciendo el tiempo de diagnóstico y aumentando la confianza del paciente en el centro de salud, lo que se traduce directamente en un aumento en la fidelización y valor de marca.
 
 
+
